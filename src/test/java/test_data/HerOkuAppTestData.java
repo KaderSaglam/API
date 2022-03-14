@@ -28,7 +28,7 @@ https://restful-booker.herokuapp.com/booking/47
         HashMap<String , Object> expectedData = new HashMap<>();
         expectedData.put("firstname", "Ali");
         expectedData.put("lastname", "Can");
-        expectedData.put("totalprice", 700);
+        expectedData.put("totalprice", 500);
         expectedData.put("depositpaid", true);
         expectedData.put("bookingdates", bookingdates);
         return expectedData;
@@ -52,11 +52,10 @@ https://restful-booker.herokuapp.com/booking/47
         bookingdates.put("checkout", "2022-03-11");
 
         JSONObject expectedRequest = new JSONObject();
-        expectedRequest.put("firstname", "Kader");
-        expectedRequest.put("lastname", "Sahra");
+        expectedRequest.put("firstname", "Ali");
+        expectedRequest.put("lastname", "Can");
         expectedRequest.put("totalprice", 500);
         expectedRequest.put("depositpaid", true);
         expectedRequest.put("bookingdates", bookingdates);
         return expectedRequest;
-    }
-}
+    }}
