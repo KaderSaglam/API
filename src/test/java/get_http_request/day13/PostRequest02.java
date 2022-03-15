@@ -6,7 +6,6 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.BookingDatesPojo;
 import pojos.BookingPojo;
-import pojos.BookingResponsePojo;
 
 import static io.restassured.RestAssured.given;
 
