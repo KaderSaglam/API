@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
-import pojos.test_data.DummyTestData;
+import test_data.DummyTestData;
 
 import java.util.HashMap;
 

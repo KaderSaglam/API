@@ -6,7 +6,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.junit.Test;
-import pojos.test_data.HerOkuAppTestData;
+import test_data.HerOkuAppTestData;
 
 import static io.restassured.RestAssured.given;
 
